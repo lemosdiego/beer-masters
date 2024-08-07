@@ -1,0 +1,168 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  .container_home {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 90%;
+    height: 550px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .container_home h1 {
+    font-size: 2rem;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    width: 100%;
+    color: #f0f0f0;
+    font-style: italic;
+    text-align: center;
+  }
+  .container_home h2 {
+    font-size: 1.1rem;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    width: 100%;
+    color: #d4af37;
+    font-style: italic;
+    text-align: center;
+  }
+  .button {
+    width: 200px;
+    height: 40px;
+    font-size: 0.8rem;
+    color: #f0f0f0;
+    font-family: "Montserrat", sans-serif;
+    background: none;
+    border: none;
+    background-color: #8b0000;
+    border-radius: 4px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .container_home {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 90%;
+    height: 600px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .container_home h1 {
+    font-size: 2.4rem;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    width: 100%;
+    color: #f0f0f0;
+    font-style: italic;
+    text-align: center;
+  }
+  .container_home h2 {
+    font-size: 1.4rem;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    width: 100%;
+    color: #d4af37;
+    font-style: italic;
+    text-align: center;
+  }
+  .button {
+    width: 230px;
+    height: 40px;
+    font-size: 0.8rem;
+    color: #f0f0f0;
+    font-family: "Montserrat", sans-serif;
+    background: none;
+    border: none;
+    background-color: #8b0000;
+    border-radius: 4px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  .container_home {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 85%;
+    height: 650px;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    gap: 20px;
+  }
+
+  .container_home h1 {
+    font-size: 3rem;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: #f0f0f0;
+    font-style: italic;
+  }
+  .container_home h2 {
+    font-size: 1.8rem;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    width: 80%;
+    color: #d4af37;
+    font-style: italic;
+  }
+  .button {
+    width: 300px;
+    height: 50px;
+    font-size: 1.1rem;
+    background-color: #8b0000;
+    color: #f0f0f0;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+@media (min-width: 1201px) {
+  .container_home {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 85%;
+    height: 700px;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    gap: 20px;
+  }
+
+  .container_home h1 {
+    font-size: 3.1rem;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: #f0f0f0;
+    font-style: italic;
+  }
+  .container_home h2 {
+    font-size: 2.2rem;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    width: 70%;
+    color: #d4af37;
+    font-style: italic;
+  }
+  .button {
+    width: 300px;
+    height: 50px;
+    font-size: 1.1rem;
+    background-color: #8b0000;
+    color: #f0f0f0;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+.container_home {
+  background-image: url(../../../public/background.png);
+}

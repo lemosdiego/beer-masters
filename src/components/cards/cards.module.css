@@ -1,0 +1,148 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  .container_card {
+    height: 400px;
+    color: #f0f0f0;
+  }
+
+  .img {
+    height: 50%;
+  }
+  .img img {
+    width: 100%;
+    height: 100%;
+  }
+  .description {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .description h4 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .description p {
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .container_card {
+    height: 600px;
+    color: #f0f0f0;
+  }
+
+  .img {
+    height: 50%;
+  }
+  .img img {
+    width: 100%;
+    height: 100%;
+  }
+  .description {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .description h4 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .description p {
+    width: 90%;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  .container_card {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    color: #f0f0f0;
+  }
+
+  .img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img img {
+    width: 100%;
+    height: 100%;
+  }
+  .description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .description h4 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .description p {
+    font-size: 1.2rem;
+    width: 70%;
+    text-align: center;
+  }
+  .normal {
+    flex-direction: row-reverse;
+  }
+
+  .reverse {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1201px) {
+  .container_card {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    color: #f0f0f0;
+  }
+
+  .img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img img {
+    width: 100%;
+    height: 100%;
+  }
+  .description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .description h4 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .description p {
+    font-size: 1.3rem;
+    width: 50%;
+    text-align: center;
+  }
+  .normal {
+    flex-direction: row-reverse;
+  }
+
+  .reverse {
+    flex-direction: row;
+  }
+}

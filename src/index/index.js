@@ -3,6 +3,7 @@ import Styles from "./index.module.css";
 import Header from "@/sessions/header/Header";
 import About from "@/sessions/about/about";
 import Products from "@/sessions/products/products";
+import Clients from "@/sessions/ Satisfied/Satisfied";
 
 export default function Index() {
   return (
@@ -11,6 +12,7 @@ export default function Index() {
       <Home />
       <About />
       <Products />
+      <Clients />
     </div>
   );
 }

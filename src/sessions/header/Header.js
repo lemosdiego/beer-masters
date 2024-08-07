@@ -4,14 +4,20 @@ import Styles from "./header.module.css";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    function handleResize() {
+    // Verifica se estamos no cliente
+    if (typeof window !== "undefined") {
       setIsMobile(window.innerWidth <= 768);
+
+      function handleResize() {
+        setIsMobile(window.innerWidth <= 768);
+      }
+
+      window.addEventListener("resize", handleResize);
+      return () => window.removeEventListener("resize", handleResize);
     }
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   function toggleMenu() {

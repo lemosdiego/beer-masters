@@ -64,7 +64,7 @@
   .container_card {
     display: flex;
     width: 100%;
-    height: 400px;
+    height: 300px;
     color: #f0f0f0;
   }
 
@@ -87,11 +87,11 @@
     gap: 10px;
   }
   .description h4 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: center;
   }
   .description p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 70%;
     text-align: center;
   }
@@ -107,7 +107,7 @@
   .container_card {
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 450px;
     color: #f0f0f0;
   }
 
@@ -130,11 +130,11 @@
     gap: 10px;
   }
   .description h4 {
-    font-size: 2.2rem;
+    font-size: 1.9rem;
     text-align: center;
   }
   .description p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     width: 50%;
     text-align: center;
   }

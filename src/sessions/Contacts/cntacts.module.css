@@ -1,0 +1,168 @@
+@media (min-width: 320px) and (max-width: 480px) {
+}
+@media (min-width: 481px) and (max-width: 768px) {
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  .container_contacts {
+    width: 85%;
+    border: solid 1px #fff;
+    display: flex;
+  }
+  .social_media {
+    width: 50%;
+    border: solid 1px #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .social_media h3 {
+    font-size: 1.8rem;
+    color: #f0f0f0;
+  }
+  .social_media p {
+    width: 90%;
+    font-size: 1.2rem;
+    color: #d4af37;
+  }
+  .social_media h4 {
+    font-size: 1.5rem;
+    color: #f0f0f0;
+  }
+  .social_media ul {
+    margin-left: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.2rem;
+  }
+  .form {
+    width: 50%;
+    padding: 20px;
+    border: solid 2px #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .form h3 {
+    font-size: 1.8rem;
+    color: #f0f0f0;
+  }
+  .form p {
+    width: 90%;
+    font-size: 1.2rem;
+    color: #d4af37;
+  }
+  .form form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .form form input {
+    margin-top: 10px;
+    height: 50px;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #f0f0f0;
+    font-size: 1rem;
+    border-bottom: solid 1px #fff;
+  }
+  .form form textarea {
+    height: 90px;
+    resize: none;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #f0f0f0;
+    font-size: 1rem;
+    border-bottom: solid 1px #fff;
+  }
+}
+@media (min-width: 1201px) {
+  .container_contacts {
+    width: 85%;
+    display: flex;
+  }
+  .social_media {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .social_media h3 {
+    font-size: 1.8rem;
+    color: #f0f0f0;
+  }
+  .social_media p {
+    width: 90%;
+    font-size: 1.2rem;
+    color: #d4af37;
+  }
+  .social_media h4 {
+    font-size: 1.5rem;
+    color: #f0f0f0;
+  }
+  .social_media ul {
+    margin-left: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.2rem;
+  }
+  .form {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .form h3 {
+    font-size: 1.8rem;
+    color: #f0f0f0;
+  }
+  .form p {
+    width: 90%;
+    font-size: 1.2rem;
+    color: #d4af37;
+  }
+  .form form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .form form input {
+    margin-top: 10px;
+    height: 50px;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #f0f0f0;
+    font-size: 1rem;
+    border-bottom: solid 1px #fff;
+  }
+  .form form textarea {
+    height: 90px;
+    resize: none;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #f0f0f0;
+    font-size: 1rem;
+    border-bottom: solid 1px #fff;
+  }
+}
+.social_media ul li a {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-weight: bold;
+}

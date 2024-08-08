@@ -5,6 +5,7 @@ import About from "@/sessions/about/about";
 import Products from "@/sessions/products/products";
 import Clients from "@/sessions/ Satisfied/Satisfied";
 import Location from "@/sessions/Location/Location";
+import Contacts from "@/sessions/Contacts/Contacts";
 
 export default function Index() {
   return (
@@ -15,6 +16,7 @@ export default function Index() {
       <Products />
       <Clients />
       <Location />
+      <Contacts />
     </div>
   );
 }

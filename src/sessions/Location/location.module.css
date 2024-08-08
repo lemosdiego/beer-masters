@@ -1,11 +1,106 @@
 @media (min-width: 320px) and (max-width: 480px) {
+  .location {
+    width: 90%;
+  }
+  .title {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .title h3 {
+    font-size: 1.2rem;
+    color: #f0f0f0;
+  }
+  .ifood {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  .ifood h4 {
+    color: #f0f0f0;
+    font-size: 1.1rem;
+    font-weight: 200;
+  }
+  .ifood h4 span {
+    color: #8b0000;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  .ifood h4 a {
+    text-decoration: none;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+  .location {
+    width: 90%;
+  }
+  .title {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .title h3 {
+    font-size: 1.4rem;
+    color: #f0f0f0;
+  }
+  .ifood {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  .ifood h4 {
+    color: #f0f0f0;
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+  .ifood h4 span {
+    color: #8b0000;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .ifood h4 a {
+    text-decoration: none;
+  }
 }
 @media (min-width: 769px) and (max-width: 1200px) {
+  .location {
+    width: 85%;
+  }
+  .title {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .title h3 {
+    font-size: 2rem;
+    color: #f0f0f0;
+  }
+  .ifood {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  .ifood h4 {
+    color: #f0f0f0;
+    font-size: 1.4rem;
+    font-weight: 200;
+  }
+  .ifood h4 span {
+    color: #8b0000;
+    font-weight: bold;
+    font-size: 1.7rem;
+  }
+  .ifood h4 a {
+    text-decoration: none;
+  }
 }
-
 @media (min-width: 1201px) {
   .location {
     width: 85%;
@@ -19,5 +114,24 @@
   .title h3 {
     font-size: 2rem;
     color: #f0f0f0;
+  }
+  .ifood {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  .ifood h4 {
+    color: #f0f0f0;
+    font-size: 1.7rem;
+    font-weight: 200;
+  }
+  .ifood h4 span {
+    color: #8b0000;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .ifood h4 a {
+    text-decoration: none;
   }
 }

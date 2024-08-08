@@ -68,10 +68,10 @@ export default function Header() {
             <a href="#produtos">
               <li onClick={handleMenuItemClick}>Produtos</li>
             </a>
-            <a>
-              <li onClick={handleMenuItemClick}>História</li>
+            <a href="#localizacao">
+              <li onClick={handleMenuItemClick}>Onde Estamos</li>
             </a>
-            <a>
+            <a href="#contatos">
               <li onClick={handleMenuItemClick}>Contatos</li>
             </a>
           </ul>

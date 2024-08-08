@@ -3,7 +3,7 @@ import Styles from "./location.module.css";
 
 export default function Location() {
   return (
-    <section className={Styles.location}>
+    <section className={Styles.location} id="localizacao">
       <div className={Styles.title}>
         <h3>Encontre o Covil dos Mestres</h3>
       </div>

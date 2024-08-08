@@ -2,7 +2,7 @@ import Styles from "./cntacts.module.css";
 
 export default function Contacts() {
   return (
-    <section className={Styles.container_contacts}>
+    <section className={Styles.container_contacts} id="contatos">
       <div className={Styles.social_media}>
         <h3>Fique por Dentro das Nossas Atualizações e Eventos</h3>
         <p>
@@ -46,6 +46,24 @@ export default function Contacts() {
               rel="noopener noreferrer"
             >
               Whatsapp
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://wa.me/yourphonenumber"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              YouTube
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://wa.me/yourphonenumber"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              TikTok
             </a>
           </li>
         </ul>

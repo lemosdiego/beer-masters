@@ -1,3 +1,5 @@
+// components/Map.js
+
 "use client";
 
 import { useEffect } from "react";
@@ -7,20 +9,23 @@ import Styles from "./map.module.css";
 
 export default function Map() {
   useEffect(() => {
-    const map = L.map("map").setView([-23.55052, -46.633308], 13);
+    // Verifica se o código está sendo executado no lado do cliente
+    if (typeof window !== "undefined") {
+      const map = L.map("map").setView([-23.55052, -46.633308], 13);
 
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution: "&copy; OpenStreetMap contributors",
-    }).addTo(map);
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "&copy; OpenStreetMap contributors",
+      }).addTo(map);
 
-    L.marker([-23.55052, -46.633308])
-      .addTo(map)
-      .bindPopup("Beer Masters")
-      .openPopup();
+      L.marker([-23.55052, -46.633308])
+        .addTo(map)
+        .bindPopup("Beer Masters")
+        .openPopup();
 
-    return () => {
-      map.remove();
-    };
+      return () => {
+        map.remove();
+      };
+    }
   }, []);
 
   return (

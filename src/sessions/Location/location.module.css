@@ -123,13 +123,13 @@
   }
   .ifood h4 {
     color: #f0f0f0;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-weight: 200;
   }
   .ifood h4 span {
     color: #8b0000;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .ifood h4 a {
     text-decoration: none;

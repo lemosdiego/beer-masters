@@ -141,15 +141,15 @@
   }
 
   .container_home h1 {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
     font-family: "Edu AU VIC WA NT Hand", cursive;
     color: #f0f0f0;
     font-style: italic;
   }
   .container_home h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-family: "Edu AU VIC WA NT Hand", cursive;
-    width: 70%;
+    width: 75%;
     color: #d4af37;
     font-style: italic;
   }

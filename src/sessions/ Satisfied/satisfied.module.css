@@ -42,10 +42,14 @@
     width: 100%;
     height: 100%;
   }
-  .cards p {
-    width: 80%;
+  .description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .description p {
     text-align: center;
-    font-size: 1rem;
+    width: 80%;
   }
   .cards h4 {
     font-size: 1.4rem;
@@ -95,10 +99,14 @@
     width: 100%;
     height: 100%;
   }
-  .cards p {
-    width: 80%;
+  .description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .description p {
+    width: 70%;
     text-align: center;
-    font-size: 1.1rem;
   }
   .cards h4 {
     font-size: 1.5rem;
@@ -130,12 +138,11 @@
   }
   .cards {
     width: 230px;
-    height: 350px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
   }
   .img {
     width: 120px;
@@ -146,13 +153,19 @@
     width: 100%;
     height: 100%;
   }
-  .cards p {
-    width: 80%;
-    text-align: center;
+  .description {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .description p {
+    width: 90%;
     font-size: 0.9rem;
+    text-align: center;
   }
   .cards h4 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-align: center;
   }
 }
@@ -174,19 +187,22 @@
     font-size: 2rem;
   }
   .clients {
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: center;
     gap: 10px;
   }
   .cards {
     width: 300px;
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+  }
+  .cards h4 {
+    font-size: 1.7rem;
+    text-align: center;
   }
   .img {
     width: 150px;
@@ -197,13 +213,16 @@
     width: 100%;
     height: 100%;
   }
-  .cards p {
-    width: 80%;
-    text-align: center;
-    font-size: 0.9rem;
+  .description {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .cards h4 {
-    font-size: 1.4rem;
+  .description p {
+    width: 85%;
     text-align: center;
+    font-size: 1rem;
   }
 }

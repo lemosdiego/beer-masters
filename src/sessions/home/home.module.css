@@ -122,6 +122,8 @@
     background-color: #8b0000;
     color: #f0f0f0;
     font-family: "Montserrat", sans-serif;
+    border: none;
+    border-radius: 8px;
   }
 }
 @media (min-width: 1201px) {
@@ -160,6 +162,9 @@
     background-color: #8b0000;
     color: #f0f0f0;
     font-family: "Montserrat", sans-serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
   }
 }
 

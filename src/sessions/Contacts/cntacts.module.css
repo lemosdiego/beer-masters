@@ -14,21 +14,26 @@
   .social_media h3 {
     font-size: 1.4rem;
     color: #f0f0f0;
+    text-align: center;
   }
   .social_media p {
     width: 95%;
     font-size: 0.9rem;
     color: #d4af37;
+    text-align: center;
   }
   .social_media h4 {
     font-size: 1.2rem;
     color: #f0f0f0;
+    text-align: center;
   }
   .social_media ul {
     margin-left: 20px;
     list-style: none;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
     font-size: 1rem;
   }
@@ -42,11 +47,13 @@
   .form h3 {
     font-size: 1.4rem;
     color: #f0f0f0;
+    text-align: center;
   }
   .form p {
     width: 95%;
     font-size: 0.9rem;
     color: #d4af37;
+    text-align: center;
   }
   .form form {
     width: 100%;
@@ -86,26 +93,32 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
   }
   .social_media h3 {
     font-size: 1.5rem;
     color: #f0f0f0;
+    text-align: center;
   }
   .social_media p {
     width: 90%;
     font-size: 1rem;
     color: #d4af37;
+    text-align: center;
   }
   .social_media h4 {
     font-size: 1.3rem;
     color: #f0f0f0;
+    text-align: center;
   }
   .social_media ul {
     margin-left: 20px;
     list-style: none;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
     font-size: 1rem;
   }
@@ -114,16 +127,19 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
   }
   .form h3 {
     font-size: 1.5rem;
     color: #f0f0f0;
+    text-align: center;
   }
   .form p {
     width: 90%;
     font-size: 1rem;
     color: #d4af37;
+    text-align: center;
   }
   .form form {
     width: 100%;
@@ -163,16 +179,19 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
   }
   .social_media h3 {
     font-size: 1.8rem;
     color: #f0f0f0;
+    text-align: center;
   }
   .social_media p {
     width: 90%;
     font-size: 1.2rem;
     color: #d4af37;
+    text-align: center;
   }
   .social_media h4 {
     font-size: 1.5rem;
@@ -191,16 +210,19 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
   }
   .form h3 {
     font-size: 1.8rem;
     color: #f0f0f0;
+    text-align: center;
   }
   .form p {
-    width: 90%;
+    width: 70%;
     font-size: 1.2rem;
     color: #d4af37;
+    text-align: center;
   }
   .form form {
     width: 60%;
